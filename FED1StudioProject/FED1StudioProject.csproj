@@ -69,6 +69,9 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
+    <Content Include="css\custom.css" />
+    <Content Include="images\16c0af3d6e058c1a02670151f11f9e36.png" />
+    <Content Include="images\47-473551_business-free-commercial-use-png-image-professional-group.png" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
@@ -77,6 +80,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\photo-seven-person-business-team-260nw-64704955.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -86,8 +90,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>

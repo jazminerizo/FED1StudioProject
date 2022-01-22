@@ -1,0 +1,30 @@
+﻿body {
+}
+
+header {
+    background-color: plum;
+    font-size: 40px;
+}
+
+    header p {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+main {
+    background-color: powderblue;
+    font-weight: bold;
+    text-decoration-color: black;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+}
