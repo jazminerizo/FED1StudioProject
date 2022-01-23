@@ -1,3 +1,84 @@
 ﻿body {
+    background-color: darkorchid;
 }
+
+header {
+    background-color: plum;
+    font-size: 40px;
+}
+
+    header p {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+main {
+    background-color: darkorchid;
+    font-weight: bold;
+    text-decoration-color: black;
+    padding: 5%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+
+nav a {
+    font-weight: bold;
+    color: lightsalmon;
+}
+
+    nav a:hover, nav a:active, nav a:focus {
+        text-decoration: none;
+    }
+
+nav ul {
+    background-color: teal;
+    border-top: 2px dotted darkgray;
+    border-bottom: 2px dotted darkgray;
+}
+
+nav li:hover {
+    background-color: darkblue;
+}
+
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .8em 1em;
+        display: block;
+        font-size: 16px;
+    }
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 2em;
+    background-color: paleturquoise;
+}
+
+td {
+    padding: 2em;
+}
+
+footer {
+    padding: 3%;
+    background-color: lightblue;
+}
+
 
