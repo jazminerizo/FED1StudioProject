@@ -60,26 +60,40 @@ nav ul li {
     }
 
 section.galleryItem {
-    margin: 2px;
-    display: inline-block;
-    width: 400px;
-}
-
-    section.galleryItem p {
-    }
-
-
-article.galleryItem {
-    margin: 2px;
+    margin: auto;
     display: inline-block;
     width: 500px;
 }
 
+    section.galleryItem img {
+        width: 75%;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+    }
+
+article.galleryItem {
+    margin: 2%;
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    padding: 3%;
+}
+
     article.galleryItem p {
-        padding: 15%;
+        padding: 10%;
+        margin: auto;
+        display: inline-block;
+    }
+
+    article.galleryItem h2 {
+        padding: 0;
+        margin: auto;
+        display: inline-block;
     }
 
     article.galleryItem img {
-        width: 95%;
+        width: 100%;
         height: auto;
+        display: inline-block;
     }
