@@ -75,7 +75,11 @@ article.galleryItem {
     width: 500px;
 }
 
+    article.galleryItem p {
+        padding: 15%;
+    }
+
     article.galleryItem img {
-        width: 90%;
+        width: 95%;
         height: auto;
     }
