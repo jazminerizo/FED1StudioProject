@@ -61,6 +61,44 @@ nav ul li {
         font-size: 16px;
     }
 
+section.galleryItem {
+    margin: auto;
+    display: inline-block;
+    width: 500px;
+}
+
+    section.galleryItem img {
+        width: 75%;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+    }
+
+article.galleryItem {
+    margin: 2%;
+    display: inline-block;
+    width: 500px;
+    height: auto;
+    padding: 3%;
+}
+
+    article.galleryItem p {
+        padding: 10%;
+        margin: auto;
+        display: inline-block;
+    }
+
+    article.galleryItem h2 {
+        padding: 0;
+        margin: auto;
+        display: inline-block;
+    }
+
+    article.galleryItem img {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
 
 
 
@@ -84,4 +122,44 @@ footer {
     background-color: lightblue;
 }
 
+section.galleryItem h2 {
+    text-decoration: underline;
+    
+}
 
+
+
+.main {
+    font-size: 36px;
+    font-weight: bold;
+    Text-align: center;
+}
+
+.gfg {
+    margin-left: 60px;
+    border: 50px solid #009900;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 50px;
+}
+
+.gfg1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #009900;
+    margin-top: 60px;
+    background-color: #c5c5db;
+}
+
+.gfg2 {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #c5c5db;
+}
+
+
+.card {
+    display: inline-block;
+    border: dotted;
+}
