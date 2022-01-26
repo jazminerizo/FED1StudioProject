@@ -163,6 +163,8 @@ div.galleryItem { /* image on card */
     display: inline-block;
     text-align: center;
     border: 1px solid #80F;
+    grid-column: auto;
+    border-bottom: 
 }
 
 
