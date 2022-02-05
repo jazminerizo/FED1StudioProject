@@ -57,7 +57,7 @@ nav ul li {
 }
 
     nav ul li a {
-        padding: .8em 1em;
+        padding: .8em /*1em*/;
         display: block;
         font-size: 16px;
     }
@@ -159,12 +159,54 @@ section.galleryItem h2 {
 }
 
 
-div.galleryItem { /* image on card */
+div.galleryItem { 
     display: inline-block;
     text-align: center;
     border: 1px solid #80F;
     grid-column: auto;
-    border-bottom: 
+    /*border-bottom:*/ 
+}
+
+aside h2 {
+    background-color: teal;
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+#leftColumn {
+    width: 73%;
+    border-right: 1px solid teal;
+    padding: 20px;  
+}
+
+#rightColumn {
+    width: 25%;
+    float: right;
+}
+
+aside h2 {
+    margin-top: 0;
+}
+
+section.imageGallery {
+    /*display: inline-block;*/
+   
+    display: table-row;
+    /*text-wrap: inherit;*/
+}
+
+div.teamGalleryItem {
+    /*border-radius: 50%;*/
+    float: none;
+    /*padding: 10px;*/
+    /*margin: 0 15px 0 0;*/
+}
+
+p.p {
+    /*text-overflow: ellipsis;*/
+    text-align: left;
+    text-space-collapse: collapse;
+   
 }
 
 

@@ -72,16 +72,32 @@
     <Content Include="css\custom.css" />
     <Content Include="HtmlPage1.html" />
     <Content Include="images\16c0af3d6e058c1a02670151f11f9e36.png" />
+    <Content Include="images\360_F_156191504_F8KusEJnAdRbyztflKKtQnnU43GIyWv4.jpg" />
     <Content Include="images\47-473551_business-free-commercial-use-png-image-professional-group.png" />
     <Content Include="images\adi-goldstein-Hli3R6LKibo-unsplash.jpg" />
+    <Content Include="images\business-office-business-woman-professional - Copy.jpg" />
     <Content Include="images\d-l-samuels-ZIRlju8VBXg-unsplash.jpg" />
+    <Content Include="images\depositphotos_13161087-stock-photo-asian-indian-businesswoman - Copy.jpg" />
+    <Content Include="images\download %281%29.jpg" />
+    <Content Include="images\download.jpg" />
     <Content Include="images\fabio-alves-BpeTaQozgN4-unsplash.jpg" />
     <Content Include="images\favicon.ico" />
+    <Content Include="images\GettyImages-501671458.jpg" />
+    <Content Include="images\images %281%29.jpg" />
+    <Content Include="images\images.jpg" />
+    <Content Include="images\istockphoto-1189302146-612x612 - Copy.jpg" />
     <Content Include="images\mimi-thian-vdXMSiX-n6M-unsplash.jpg" />
     <Content Include="images\pineapple-supply-co-qWlkCwBnwOE-unsplash.jpg" />
+    <Content Include="images\professional-hairstyle-for-men-5.jpg" />
+    <Content Include="images\professional-hairstyles-for-men-11.jpg" />
+    <Content Include="images\Professional-women-637233964_.jpg" />
     <Content Include="images\ux-indonesia-qC2n6RQU4Vw-unsplash.jpg" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
+    <Content Include="Team_Topics\Administration.html" />
+    <Content Include="Team_Topics\Instructors.html" />
+    <Content Include="Team_Topics\Leadership.html" />
+    <Content Include="Team_Topics\Sales.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -98,7 +114,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="js\" />
+    <Folder Include="JS\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
