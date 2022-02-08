@@ -34,7 +34,7 @@ p {
 
 nav a {
     font-weight: bold;
-    color: lightsalmon;
+    color: white;
 }
 
     nav a:hover, nav a:active, nav a:focus {
@@ -42,7 +42,7 @@ nav a {
     }
 
 nav ul {
-    background-color: teal;
+    background-color: darkslateblue;
     border-top: 2px dotted darkgray;
     border-bottom: 2px dotted darkgray;
 }
