@@ -202,11 +202,18 @@ div.teamGalleryItem {
     /*margin: 0 15px 0 0;*/
 }
 
-p.p {
+.p {
     /*text-overflow: ellipsis;*/
     text-align: left;
     text-space-collapse: collapse;
    
 }
 
+.names {
+    text-align: left;
+}
+
+.asideList {
+    text-align: left;
+}
 
