@@ -4,7 +4,8 @@ body {
     background-color: darkorchid;
     background-image: url(../images/images_3.jpg);
     background-size: contain;
-    background-image: radial-gradient();
+    /*background-image: radial-gradient();*/
+    
 }
 
 
@@ -16,9 +17,16 @@ header {
     text-shadow: 2px 2px black;
     background-position-y: bottom;
     
+    
 }
 
+.header {
 
+}
+
+.logo {
+    margin: auto;
+}
 
     header p {
         font-size: 24px;
@@ -285,7 +293,8 @@ div.teamGalleryItem {
 .p {
     /*text-overflow: ellipsis;*/
     text-align: left;
-    text-space-collapse: collapse;
+    /*text-space-collapse: collapse;*/
+    /*float: left;*/
    
 }
 
