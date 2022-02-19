@@ -20,14 +20,25 @@ header {
     outline-color: black;
     /*background-position-y: bottom;*/
     font-family: 'New Rocker', cursive;
+    text-align: center;
 }
 
 .header {
     font-family: 'New Rocker', cursive;
+    text-align: center;
 }
 
 .logo {
     margin: auto;
+    display: inline-block;
+    float: left; 
+    clear: right;
+}
+
+div#headerOverlay {
+    display: inline-block;
+   
+    
 }
 
 header p {
@@ -35,6 +46,7 @@ header p {
     font-weight: bold;
     font-family: Century;
     color: darkorange;
+    text-align: center;
 }
 
 main {
@@ -89,7 +101,7 @@ nav a {
     }
 
 nav li:hover {
-    background-color: yellow;
+    background-color: darkred;
 }
 
 
@@ -173,8 +185,8 @@ table {
 
 .link {
     text-decoration: none;
-    text-shadow: .5px .5px black;
-    color: rgb(221, 2, 245);
+    text-shadow: .5px .5px darkred;
+    color: white;
     font-size: 20px
 }
 
@@ -269,9 +281,16 @@ aside.rightSide {
 }
 
 aside h2 {
-    background-color: rgb(194, 6, 6);
-    color: white;
-    text-decoration: none;
+    background-color: rgb(2, 33, 41);
+    color: rgb(194, 6, 6);
+    /*text-decoration: none;*/
+    text-shadow: yellow;
+}
+
+h2.asideHeader {
+    outline: 2em;
+    outline-color: white;
+
 }
 
 #leftColumn {
