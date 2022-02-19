@@ -1,40 +1,44 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Space+Mono&display=swap');
+﻿
+/*@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto:wght@100&display=swap');*/
+
 
 body {
-    background-color: darkorchid;
-    background-image: url(../images/images_3.jpg);
+    background-color: rgb(5, 28, 38);
+    /*background-image: url(../images/images_3.jpg);*/
     background-size: contain;
     /*background-image: radial-gradient();*/
-    
 }
 
 
 header {
     /*background-color: rgb(208, 153, 242);*/
     /*background-image: url(../images/download_2.jpg);*/
-    font-size: 40px;
-    color: white;
-    text-shadow: 2px 2px black;
-    background-position-y: bottom;
-    
-    
+    color: rgb(194, 6, 6);
+    text-shadow: 1px 1px yellow;
+    text-decoration-color: black;
+    letter-spacing: .50em;
+    outline-color: black;
+    /*background-position-y: bottom;*/
+    font-family: 'New Rocker', cursive;
 }
 
 .header {
-
+    font-family: 'New Rocker', cursive;
 }
 
 .logo {
     margin: auto;
 }
 
-    header p {
-        font-size: 24px;
-        font-weight: bold;
-    }
+header p {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Century;
+    color: darkorange;
+}
 
 main {
-    background-image: url(../images/jacaranda-flowers-close-up-on-purple-background-irina-redine.jpg);
+    background-image: url(../images/2505c4fb0d1e6d6edf33f33f687db773.jpg);
     background-size: cover;
     /*background-repeat: no-repeat;*/
     font-weight: bold;
@@ -46,8 +50,10 @@ main {
 }
 
 h1 {
-    font-size: 38px;
+    /*font-size: 38px;*/
     text-align: center;
+    font-size: 4em;
+
 }
 
 h2 {
@@ -61,7 +67,8 @@ p {
 }
 
 nav {
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px darkred;
+    background-color: rgb(2, 33, 41);
 }
 
 nav a {
@@ -75,14 +82,14 @@ nav a {
     }
 
     nav ul {
-        background-image: url(../images/jacaranda-flowers-close-up-on-purple-background-irina-redine.jpg);
-        border-top: 2px solid darkgray;
-        border-bottom: 2px solid darkgray;
+        /*background-image: url(../images/jacaranda-flowers-close-up-on-purple-background-irina-redine.jpg);*/
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
         background-size: cover;
     }
 
 nav li:hover {
-    background-color: rebeccapurple;
+    background-color: yellow;
 }
 
 
@@ -97,20 +104,30 @@ nav ul li {
     }
 
 section.galleryItem {
-    margin: auto;
+    /*margin-bottom: 20px;*/
     display: inline-block;
     width: 500px;
+    
 }
 
     section.galleryItem img {
-        width: 75%;
-        height: auto;
+        /*width: 75%;*/
+        /*height: auto;*/
         margin: auto;
         display: inline-block;
+        margin-top: 25px;
     }
 
     .wordBox {
 
+    }
+
+    .why {
+        font-size: 40px;
+    }
+
+    .pic {
+        outline: 1px;
     }
 
 article.galleryItem {
@@ -167,7 +184,7 @@ td {
 
 footer {
     padding: 1%;
-    background-image: url(../images/jacaranda-flowers-close-up-on-purple-background-irina-redine.jpg);
+    background: black;
     border-top: 2px solid darkgray;
     border-bottom: 2px solid darkgray;
     background-size: cover;
@@ -177,6 +194,7 @@ footer {
 
 section.galleryItem h2 {
     text-decoration: underline;
+    outline: 1px;
 }
 
 
@@ -251,7 +269,7 @@ aside.rightSide {
 }
 
 aside h2 {
-    background-color: rgb(197, 167, 235);
+    background-color: rgb(194, 6, 6);
     color: white;
     text-decoration: none;
 }
@@ -280,7 +298,7 @@ section.imageGallery {
 
 .paragraph {
     text-align: center;
-    
+    outline: 1px;
 }
 
 div.teamGalleryItem {
